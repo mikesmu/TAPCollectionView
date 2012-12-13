@@ -12,12 +12,17 @@
 		30B13701167935CC006598BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B13700167935CC006598BF /* CoreGraphics.framework */; };
 		30B13707167935CC006598BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30B13705167935CC006598BF /* InfoPlist.strings */; };
 		30B13709167935CC006598BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B13708167935CC006598BF /* main.m */; };
-		30B1370D167935CC006598BF /* TPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B1370C167935CC006598BF /* TPAppDelegate.m */; };
+		30B1370D167935CC006598BF /* TAPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B1370C167935CC006598BF /* TAPAppDelegate.m */; };
 		30B1370F167935CC006598BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B1370E167935CC006598BF /* Default.png */; };
 		30B13711167935CC006598BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B13710167935CC006598BF /* Default@2x.png */; };
 		30B13713167935CC006598BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B13712167935CC006598BF /* Default-568h@2x.png */; };
 		30B13716167935CC006598BF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B13714167935CC006598BF /* MainStoryboard.storyboard */; };
-		30B13719167935CC006598BF /* TPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B13718167935CC006598BF /* TPViewController.m */; };
+		30B13719167935CC006598BF /* TAPCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B13718167935CC006598BF /* TAPCollectionViewController.m */; };
+		30B1372116793695006598BF /* TAPCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B1372016793695006598BF /* TAPCollectionLayout.m */; };
+		30B13724167937C6006598BF /* TAPPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B13723167937C6006598BF /* TAPPhotoCell.m */; };
+		30B92EAA167A037B00157E8D /* BHAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B92EA7167A037A00157E8D /* BHAlbum.m */; };
+		30B92EAB167A037B00157E8D /* BHPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B92EA9167A037B00157E8D /* BHPhoto.m */; };
+		30B92EAE167A18BC00157E8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B92EAD167A18BC00157E8D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +34,23 @@
 		30B13706167935CC006598BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		30B13708167935CC006598BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30B1370A167935CC006598BF /* CollectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollectionView-Prefix.pch"; sourceTree = "<group>"; };
-		30B1370B167935CC006598BF /* TPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPAppDelegate.h; sourceTree = "<group>"; };
-		30B1370C167935CC006598BF /* TPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPAppDelegate.m; sourceTree = "<group>"; };
+		30B1370B167935CC006598BF /* TAPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAPAppDelegate.h; sourceTree = "<group>"; };
+		30B1370C167935CC006598BF /* TAPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAPAppDelegate.m; sourceTree = "<group>"; };
 		30B1370E167935CC006598BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		30B13710167935CC006598BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		30B13712167935CC006598BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		30B13715167935CC006598BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		30B13717167935CC006598BF /* TPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPViewController.h; sourceTree = "<group>"; };
-		30B13718167935CC006598BF /* TPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPViewController.m; sourceTree = "<group>"; };
+		30B13717167935CC006598BF /* TAPCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAPCollectionViewController.h; sourceTree = "<group>"; };
+		30B13718167935CC006598BF /* TAPCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAPCollectionViewController.m; sourceTree = "<group>"; };
+		30B1371F16793695006598BF /* TAPCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPCollectionLayout.h; sourceTree = "<group>"; };
+		30B1372016793695006598BF /* TAPCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPCollectionLayout.m; sourceTree = "<group>"; };
+		30B13722167937C6006598BF /* TAPPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPPhotoCell.h; sourceTree = "<group>"; };
+		30B13723167937C6006598BF /* TAPPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPPhotoCell.m; sourceTree = "<group>"; };
+		30B92EA6167A037A00157E8D /* BHAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHAlbum.h; sourceTree = "<group>"; };
+		30B92EA7167A037A00157E8D /* BHAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHAlbum.m; sourceTree = "<group>"; };
+		30B92EA8167A037B00157E8D /* BHPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHPhoto.h; sourceTree = "<group>"; };
+		30B92EA9167A037B00157E8D /* BHPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHPhoto.m; sourceTree = "<group>"; };
+		30B92EAD167A18BC00157E8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B92EAE167A18BC00157E8D /* QuartzCore.framework in Frameworks */,
 				30B136FD167935CC006598BF /* UIKit.framework in Frameworks */,
 				30B136FF167935CC006598BF /* Foundation.framework in Frameworks */,
 				30B13701167935CC006598BF /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +88,7 @@
 		30B136FB167935CC006598BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				30B92EAD167A18BC00157E8D /* QuartzCore.framework */,
 				30B136FC167935CC006598BF /* UIKit.framework */,
 				30B136FE167935CC006598BF /* Foundation.framework */,
 				30B13700167935CC006598BF /* CoreGraphics.framework */,
@@ -83,11 +99,19 @@
 		30B13702167935CC006598BF /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				30B1370B167935CC006598BF /* TPAppDelegate.h */,
-				30B1370C167935CC006598BF /* TPAppDelegate.m */,
+				30B1370B167935CC006598BF /* TAPAppDelegate.h */,
+				30B1370C167935CC006598BF /* TAPAppDelegate.m */,
 				30B13714167935CC006598BF /* MainStoryboard.storyboard */,
-				30B13717167935CC006598BF /* TPViewController.h */,
-				30B13718167935CC006598BF /* TPViewController.m */,
+				30B1371F16793695006598BF /* TAPCollectionLayout.h */,
+				30B1372016793695006598BF /* TAPCollectionLayout.m */,
+				30B13717167935CC006598BF /* TAPCollectionViewController.h */,
+				30B13718167935CC006598BF /* TAPCollectionViewController.m */,
+				30B13722167937C6006598BF /* TAPPhotoCell.h */,
+				30B13723167937C6006598BF /* TAPPhotoCell.m */,
+				30B92EA6167A037A00157E8D /* BHAlbum.h */,
+				30B92EA7167A037A00157E8D /* BHAlbum.m */,
+				30B92EA8167A037B00157E8D /* BHPhoto.h */,
+				30B92EA9167A037B00157E8D /* BHPhoto.m */,
 				30B13703167935CC006598BF /* Supporting Files */,
 			);
 			path = CollectionView;
@@ -133,7 +157,7 @@
 		30B136EF167935CC006598BF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = TP;
+				CLASSPREFIX = TAP;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = tap;
 			};
@@ -175,8 +199,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				30B13709167935CC006598BF /* main.m in Sources */,
-				30B1370D167935CC006598BF /* TPAppDelegate.m in Sources */,
-				30B13719167935CC006598BF /* TPViewController.m in Sources */,
+				30B1370D167935CC006598BF /* TAPAppDelegate.m in Sources */,
+				30B13719167935CC006598BF /* TAPCollectionViewController.m in Sources */,
+				30B1372116793695006598BF /* TAPCollectionLayout.m in Sources */,
+				30B13724167937C6006598BF /* TAPPhotoCell.m in Sources */,
+				30B92EAA167A037B00157E8D /* BHAlbum.m in Sources */,
+				30B92EAB167A037B00157E8D /* BHPhoto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +321,7 @@
 				30B1371E167935CC006598BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
